@@ -35,7 +35,7 @@ currently we are focused on auoload and plugged(plugin) folder
 # Step 2: 
 # =======
 
-create .vimrc file inside the ~/.vimrc (like this if you don't have same file already) and below content in the file 
+create .vimrc file inside the ~ /.vimrc (like this if you don't have same file already) and below content in the file 
 call plug#begin('~/.vim/plugged')
 add multiple plugins here
 " Make sure you use single quotes
