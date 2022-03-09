@@ -1,0 +1,43 @@
+Many ways present on Internet to setup and make vim tool more richer and more use friendly
+manually can also be done and many developers can use different pluging managers, some of them are as follows
+
+(vim-plug)plug.vim
+vundle
+pathogen
+
+Lets look at how to setup plug.vim, it is bit easier than others 
+
+Step 1:
+======= 
+create below directory at home path (i.e. for # user home directoy could be /(root))
+mkdir -p ~/.vim/autoload >> once verify 
+cd ~/.vim/autoload#
+pwd
+/root/.vim/autoload
+
+now download plug.vim file and place it inside /root/.vim/autoload
+
+Step 2: 
+=======
+
+create .vimrc file inside the ~/.vimrc (like this if you don't have same file already) and below content in the file 
+call plug#begin('~/.vim/plugged')
+add multiple plugins here
+" Make sure you use single quotes
+Plug 'scrooloose/nerdtree'
+more plug here
+more plug here
+more plug here
+..............
+call plug#end()
+and save the .vimrc file with above content
+
+Step 3: 
+======= 
+now simply run vim command and goto command mode (SHIFT+:) and typebelow
+:PlugInstall (to install Plug 'scrooloose/nerdtree' as entry present inside .vimrc file) you must visible below content
+
+
+
+
+
