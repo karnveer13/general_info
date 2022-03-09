@@ -35,7 +35,11 @@ and save the .vimrc file with above content
 Step 3: 
 ======= 
 now simply run vim command and goto command mode (SHIFT+:) and typebelow
-:PlugInstall (to install Plug 'scrooloose/nerdtree' as entry present inside .vimrc file) you must visible below content
+:PlugInstall (to install Plug 'scrooloose/nerdtree' as entry present inside .vimrc file) you must visible Progress bar at top-left corner
+of your window
+
+Now open vim <filepath>
+(SHIFT+:):NERDTree
 
 
 
