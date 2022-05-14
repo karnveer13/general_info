@@ -14,13 +14,16 @@ pathogen
 We'll look at plug.vim in more detail
 
 # Step 1:
-create below directory at home path (i.e. for # user home directoy could be /(root))
-mkdir -p ~/.vim/autoload >> once verify 
+create new directory at home path (i.e. for # user home directoy could be /(root))
+mkdir -p ~/.vim/autoload
+
 cd ~/.vim/autoload#
 pwd
 /root/.vim/autoload
 
-now download plug.vim file and place it inside /root/.vim/autoload
+![Screenshot 2022-05-14 223447](https://user-images.githubusercontent.com/101242777/168441910-3aabcfed-6599-4d15-90f0-b3fc7a50709f.png)
+
+now download plug.vim file and place it inside .vim/autoload/ directory
 
 more directory option can also be added as below
 -------------------------------------------------
