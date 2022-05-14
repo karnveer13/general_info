@@ -1,20 +1,19 @@
-# general_info
-this repo consist general information of the tools which help in development.
+# Build Your VIM more user friendly 
+To browse the code and make browsing more developer friendly
 
 # VIM Plugin Manager
-# ======================== 
-
-Many ways present on Internet to setup and make vim tool more richer and more use friendly
-manually can also be done and many developers can use different pluging managers, some of them are as follows
+There are many ways to make Vim tools richer and more programmer-friendly. Can also be done manually and many developers can use different plugging managers, some of them are as follows
 
 (vim-plug)plug.vim
-vundle
+-----------------
+vundle 
+----------
 pathogen
+------------
 
-Lets look at how to setup plug.vim, it is bit easier than others 
+We'll look at plug.vim in more detail
 
 # Step 1:
-# ======= 
 create below directory at home path (i.e. for # user home directoy could be /(root))
 mkdir -p ~/.vim/autoload >> once verify 
 cd ~/.vim/autoload#
